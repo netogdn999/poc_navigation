@@ -1,0 +1,15 @@
+### Buscar tipos de contas de resultados
+GET http://localhost:8000/incomeStatementAccountType
+Content-Type: application/json
+
+### Buscar tipo de conta de resultado por id
+GET http://localhost:8000/incomeStatementAccountType/1
+Content-Type: application/json
+
+### Buscar tipo de conta de resultado somente de despesas
+GET http://localhost:8000/incomeStatementAccountType/expense
+Content-Type: application/json
+
+### Buscar tipo de conta de resultado somente de receitas
+GET http://localhost:8000/incomeStatementAccountType/income
+Content-Type: application/json

@@ -1,0 +1,23 @@
+### Buscar todas as instituições
+GET http://localhost:8000/institution
+Content-Type: application/json
+
+### Buscar instituição por id
+GET http://localhost:8000/institution/0
+Content-Type: application/json
+
+### Buscar contas de resultado da instituição
+GET http://localhost:8000/institution/0/incomeStatementAccount
+Content-Type: application/json
+
+### Criar uma conta de resultado e associar a uma instituição
+POST http://localhost:8000/institution/0/registerIncomeStatementAccount
+Content-Type: application/json
+
+{
+  "controlDate":"2023-05-10T00:00:00.000Z",
+  "value":10.0,
+  "type":{
+    "id":0
+    }
+  }

@@ -1,0 +1,20 @@
+### Buscar todas as categorias 2
+GET http://localhost:8000/category2
+Content-Type: application/json
+
+### Buscar uma categoria 2 por id
+GET http://localhost:8000/category2/0
+Content-Type: application/json
+
+### Buscar tipos de conta de resultado na categoria 2
+GET http://localhost:8000/category2/0/incomeStatementAccountTypes
+Content-Type: application/json
+
+### Criar uma tipo de conta de resultado e associar a uma categoria 2
+POST http://localhost:8000/category2/0/registerIncomeStatementAccountType
+Content-Type: application/json
+
+{
+  "name": "Rico Trader",
+  "isExpense": true
+}

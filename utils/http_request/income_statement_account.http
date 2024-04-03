@@ -1,0 +1,11 @@
+### Buscar despesas
+GET http://localhost:8000/incomeStatementAccount/expense
+Content-Type: application/json
+
+### Buscar receitas
+GET http://localhost:8000/incomeStatementAccount/income
+Content-Type: application/json
+
+### Buscar por tipo de conta de resultado
+GET http://localhost:8000/incomeStatementAccount/type/0
+Content-Type: application/json

@@ -1,0 +1,6 @@
+{
+  "editor.suggest.showFolders": true,
+  "vsicons.presets.foldersAllDefaultIcon": false,
+  "explorer.compactFolders": true,
+  "vsicons.presets.hideFolders": false
+}

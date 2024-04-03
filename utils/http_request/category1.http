@@ -1,0 +1,31 @@
+### Buscar todas as categorias 1
+GET http://localhost:8000/category1
+Content-Type: application/json
+
+### Buscar média das categorias 1
+GET http://localhost:8000/category1/average
+Content-Type: application/json
+
+### Buscar uma categoria 1 por id
+GET http://localhost:8000/category1/0
+Content-Type: application/json
+
+### Buscar categorias 2 na categoria 1
+GET http://localhost:8000/category1/0/category2
+Content-Type: application/json
+
+### Criar uma categoria 2 e associar a uma categoria 1
+POST http://localhost:8000/category1/0/category2
+Content-Type: application/json
+
+{
+  "name": "Plataformas"
+}
+
+### Registrar uma categoria 1
+POST http://localhost:8000/category1
+Content-Type: application/json
+
+{
+  "name": "Despesas fixas"
+}

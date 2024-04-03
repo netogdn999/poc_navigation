@@ -1,0 +1,27 @@
+### Buscar todos os grupo de instituições
+GET http://localhost:8000/institutionGroup
+Content-Type: application/json
+
+### Buscar grupo de instituições por id
+GET http://localhost:8000/institutionGroup/0
+Content-Type: application/json
+
+### Buscar instituições de um grupo de instituições
+GET http://localhost:8000/institutionGroup/0/institution
+Content-Type: application/json
+
+### Criar uma instituição e associar a um grupo de instituições
+POST http://localhost:8000/institutionGroup/0/registerInstitution
+Content-Type: application/json
+
+{
+  "name": "Iti"
+}
+
+### Registrar grupo de instituições
+POST http://localhost:8000/institutionGroup/
+Content-Type: application/json
+
+{
+  "name": "Renda fixa"
+}
